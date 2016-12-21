@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="btClear" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btSolve" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="27" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="btSolve" min="-2" max="-2" attributes="0"/>
+                  <Component id="btClear" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="SUDOKU"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jSeparator1" alignment="0" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="L9C1" pref="20" max="32767" attributes="0"/>
+                      <Component id="L8C1" alignment="1" max="32767" attributes="0"/>
+                      <Component id="L7C1" alignment="1" max="32767" attributes="0"/>
+                      <Component id="L6C1" alignment="1" max="32767" attributes="0"/>
+                      <Component id="L5C1" alignment="1" max="32767" attributes="0"/>
+                      <Component id="L4C1" alignment="1" max="32767" attributes="0"/>
+                      <Component id="L3C1" alignment="1" max="32767" attributes="0"/>
+                      <Component id="L1C1" alignment="0" max="32767" attributes="0"/>
+                      <Component id="L2C1" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="L9C2" pref="20" max="32767" attributes="0"/>
+                      <Component id="L8C2" alignment="1" max="32767" attributes="0"/>
+                      <Component id="L7C2" alignment="1" max="32767" attributes="0"/>
+                      <Component id="L6C2" alignment="1" max="32767" attributes="0"/>
+                      <Component id="L5C2" alignment="1" max="32767" attributes="0"/>
+                      <Component id="L4C2" alignment="1" max="32767" attributes="0"/>
+                      <Component id="L3C2" alignment="1" max="32767" attributes="0"/>
+                      <Component id="L1C2" alignment="0" max="32767" attributes="0"/>
+                      <Component id="L2C2" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="L9C3" pref="20" max="32767" attributes="0"/>
+                      <Component id="L8C3" alignment="1" max="32767" attributes="0"/>
+                      <Component id="L7C3" alignment="1" max="32767" attributes="0"/>
+                      <Component id="L6C3" alignment="1" max="32767" attributes="0"/>
+                      <Component id="L5C3" alignment="1" max="32767" attributes="0"/>
+                      <Component id="L4C3" alignment="1" max="32767" attributes="0"/>
+                      <Component id="L3C3" alignment="1" max="32767" attributes="0"/>
+                      <Component id="L1C3" alignment="0" max="32767" attributes="0"/>
+                      <Component id="L2C3" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="L6C4" pref="20" max="32767" attributes="0"/>
+                              <Component id="L5C4" max="32767" attributes="0"/>
+                              <Component id="L4C4" max="32767" attributes="0"/>
+                              <Component id="L3C4" max="32767" attributes="0"/>
+                              <Component id="L1C4" max="32767" attributes="0"/>
+                              <Component id="L2C4" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="L8C4" max="32767" attributes="0"/>
+                              <Component id="L7C4" max="32767" attributes="0"/>
+                              <Component id="L9C4" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="L7C5" pref="20" max="32767" attributes="0"/>
+                      <Component id="L6C5" max="32767" attributes="0"/>
+                      <Component id="L5C5" max="32767" attributes="0"/>
+                      <Component id="L4C5" max="32767" attributes="0"/>
+                      <Component id="L3C5" max="32767" attributes="0"/>
+                      <Component id="L1C5" max="32767" attributes="0"/>
+                      <Component id="L2C5" max="32767" attributes="0"/>
+                      <Component id="L8C5" alignment="0" max="32767" attributes="0"/>
+                      <Component id="L9C5" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="L9C6" pref="20" max="32767" attributes="0"/>
+                      <Component id="L8C6" max="32767" attributes="0"/>
+                      <Component id="L7C6" max="32767" attributes="0"/>
+                      <Component id="L6C6" max="32767" attributes="0"/>
+                      <Component id="L5C6" max="32767" attributes="0"/>
+                      <Component id="L4C6" max="32767" attributes="0"/>
+                      <Component id="L3C6" max="32767" attributes="0"/>
+                      <Component id="L1C6" max="32767" attributes="0"/>
+                      <Component id="L2C6" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="L5C7" pref="20" max="32767" attributes="0"/>
+                              <Component id="L4C7" max="32767" attributes="0"/>
+                              <Component id="L1C7" max="32767" attributes="0"/>
+                              <Component id="L2C7" max="32767" attributes="0"/>
+                              <Component id="L3C7" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="L7C7" max="32767" attributes="0"/>
+                              <Component id="L6C7" max="32767" attributes="0"/>
+                              <Component id="L8C7" alignment="0" max="32767" attributes="0"/>
+                              <Component id="L9C7" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="L6C8" pref="20" max="32767" attributes="0"/>
+                      <Component id="L5C8" max="32767" attributes="0"/>
+                      <Component id="L4C8" max="32767" attributes="0"/>
+                      <Component id="L1C8" max="32767" attributes="0"/>
+                      <Component id="L2C8" max="32767" attributes="0"/>
+                      <Component id="L3C8" alignment="1" max="32767" attributes="0"/>
+                      <Component id="L7C8" alignment="0" max="32767" attributes="0"/>
+                      <Component id="L8C8" alignment="0" max="32767" attributes="0"/>
+                      <Component id="L9C8" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="L6C9" alignment="0" pref="20" max="32767" attributes="0"/>
+                      <Component id="L1C9" alignment="0" max="32767" attributes="0"/>
+                      <Component id="L2C9" alignment="0" max="32767" attributes="0"/>
+                      <Component id="L3C9" alignment="0" max="32767" attributes="0"/>
+                      <Component id="L4C9" alignment="0" max="32767" attributes="0"/>
+                      <Component id="L5C9" alignment="0" max="32767" attributes="0"/>
+                      <Component id="L8C9" alignment="0" max="32767" attributes="0"/>
+                      <Component id="L7C9" alignment="0" max="32767" attributes="0"/>
+                      <Component id="L9C9" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="18" max="32767" attributes="0"/>
+              </Group>
+              <Component id="jSeparator2" alignment="1" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="L1C1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L1C2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L1C3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L1C4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L1C5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L1C6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L1C7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L1C9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L1C8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="L2C1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L2C2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L2C3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L2C4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L2C5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L2C6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L2C7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L2C9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L2C8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="L3C1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L3C2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L3C3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L3C4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L3C5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L3C6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L3C7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L3C9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L3C8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                  <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="L4C1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L4C2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L4C3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L4C4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L4C5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L4C6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L4C7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L4C9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L4C8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="L5C1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L5C2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L5C3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L5C4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L5C5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L5C6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L5C7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L5C9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L5C8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="L6C1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L6C2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L6C3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L6C4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L6C5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L6C6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L6C7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L6C9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L6C8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jSeparator2" min="-2" pref="10" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="L7C2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="L7C3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="L7C4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="L7C5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="L7C6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="L7C7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="L7C9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="L7C8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="L7C1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="L8C1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L8C2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L8C3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L8C4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L8C5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L8C6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L8C7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L8C9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L8C8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="L9C1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L9C2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L9C3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L9C4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L9C5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L9C6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L9C7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L9C9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="L9C8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="L1C1">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="L1C1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="L1C2">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L1C3">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L1C4">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L1C5">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L1C6">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L1C7">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L1C8">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L1C9">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L2C1">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="L2C1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="L2C2">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L2C3">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L2C4">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L2C5">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L2C6">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L2C7">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L2C8">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L2C9">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L3C5">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L3C6">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L3C8">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L3C7">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L3C3">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L3C4">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L3C1">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="L3C1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="L3C9">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L3C2">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L5C6">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L5C4">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="L5C4ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="L5C5">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L5C2">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L5C3">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L4C9">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L5C1">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="L5C1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="L4C8">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L5C8">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L5C7">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L5C9">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L6C1">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="L6C1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="L6C2">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L6C3">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L6C4">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L6C5">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L6C6">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L6C7">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L4C7">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L6C8">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L4C4">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L4C3">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L4C2">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L6C9">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L4C1">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="L4C1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="L4C6">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L4C5">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L8C6">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L8C4">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L8C5">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L8C2">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L8C3">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L7C9">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L8C1">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="L8C1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="L7C8">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L8C8">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L8C7">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L8C9">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L9C1">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="L9C1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="L9C2">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L9C3">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L9C4">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L9C5">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L9C6">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L9C7">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L7C7">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L9C8">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L7C4">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L7C3">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L7C2">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L9C9">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L7C1">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="L7C1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="L7C6">
+        </Component>
+        <Component class="javax.swing.JTextField" name="L7C5">
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator1">
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator2">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="btClear">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Clear"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btClearActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btSolve">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Solve"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
